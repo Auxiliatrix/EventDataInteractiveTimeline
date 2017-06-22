@@ -3,20 +3,6 @@
  * Copyright 2014-2015 Materialize
  * MIT License (https://raw.githubusercontent.com/Dogfalo/materialize/master/LICENSE)
  */
-
-.bg { 
-    /* The image used */
-    background-image: url("background.jpg");
-
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
 .materialize-red {
   background-color: #e51c23 !important;
 }
