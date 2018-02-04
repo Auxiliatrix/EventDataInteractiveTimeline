@@ -1,76 +1,17 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<!--Import Google Icon Font-->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
-		<!--Let browser know website is optimized for mobile-->
-		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	</head>
-   
-    <body>
-		<div class="navbar-fixed">
-			<!-- Dropdown Structure -->
-			<ul id="dropdown1" class="dropdown-content">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="the-team.html">The Team</a></li>
-			</ul>
-			<nav>
-				<div class="nav-wrapper teal accent-4">
-					<ul class="left hide-on-med-and-down">
-						<li class="link"><a href="#!">T4</a></li>
-					</ul>
-					<ul class="right hide-on-med-and-down">
-						<li class="link"><a href="index.html">Almaden T4 - Tea For You</a></li>
-						<!-- Dropdown Trigger -->
-						<li><a class="dropdown-button" href="#!" data-activates="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
-		<div class="parallax-container">
-			<div class="parallax"><img src="background.jpg"/></div>
-		</div>
-        <div class="container">
-            <div class="divider"></div>
-                <div class="section">
-                    <h5>Websites: How do they work?</h5>
-                </div>
-                <div class="row">
-                    <div class="col s6 offset-s3">
-						<div class="card-panel hoverable teal accent-4 center-align flow-text">
-							<p>I have <strong>no fucking clue</strong>, but here's a cool button:</p>
-							<a class="btn tooltipped btn-floating pulse blue lighten-3" 
-								data-position="bottom" data-delay="50" 
-								data-tooltip="Why would you keep clicking this."
-								onclick="Materialize.toast('Boop!', 4000)">
-								<i class="material-icons"></i>
-							</a>
-							<h4 id="input">###</h4>
-							<form action="#">
-								<input type="text" id="box" name="txt" onkeypress="handle(event)" />
-							</form>
-
-							<script>
-								function handle(e){
-									if(e.keyCode === 13){
-										e.preventDefault(); // Ensure it is only this code that runs
-										if( document.getElementById('box').value == "11111111" ) {
-											document.getElementById('input').innerHTML = "413";
-										}
-										if( document.getElementById('box').value == "00068313" ) {
-											document.getElementById('input').innerHTML = "0";
-										}
-									}
-								}
-							</script>
-						</div>
-				</div>
-			</div>
-		</div>
-		        <!--Import jQuery before materialize.js-->
+    <head>
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!--Import materialize.css-->
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    </body>
+		<p id="demo" style="display:none">Hello JavaScript!</p>
+		<button type="button" onclick="document.getElementById('demo').style.display='block'">Click Me!</button>
+    <!--Import jQuery before materialize.js-->
         <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
     </body>
