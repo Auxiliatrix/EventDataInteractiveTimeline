@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/Squeakadoodle/EventDataInteractiveTimeline/issues"
   },
-  "homepage": "https://github.com/Squeakadoodle/EventDataInteractiveTimeline#readme"
+  "homepage": "https://github.com/Squeakadoodle/EventDataInteractiveTimeline#readme",
+  "dependencies": {
+    "browserify": "^15.2.0",
+    "materialize-css": "^0.100.2",
+    "typescript": "^2.7.1"
+  }
 }
