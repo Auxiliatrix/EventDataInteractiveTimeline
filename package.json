@@ -1,0 +1,19 @@
+{
+  "name": "eventdatainteractivetimeline",
+  "version": "1.0.0",
+  "description": "Displays events stored in a SQLite database in a nice format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Squeakadoodle/EventDataInteractiveTimeline.git"
+  },
+  "author": "Auxiliatrix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Squeakadoodle/EventDataInteractiveTimeline/issues"
+  },
+  "homepage": "https://github.com/Squeakadoodle/EventDataInteractiveTimeline#readme"
+}
