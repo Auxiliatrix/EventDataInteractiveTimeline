@@ -1,3 +1,3 @@
 function dialogue(text) {
-    alert(text);
+  alert(text);
 }
